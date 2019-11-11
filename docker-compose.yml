@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  react-app:
+    image: vitali1598/react-app:v1
+    container_name: react-app
+    restart: always
+    ports:
+      - "3000:3000"
